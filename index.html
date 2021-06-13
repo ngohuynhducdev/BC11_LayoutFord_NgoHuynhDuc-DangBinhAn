@@ -10,23 +10,430 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- MY CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
   <body>
     <!-- HEADER START -->
-    <header></header>
+   
+    <div class="fixed-top">
+        <header>
+                <div class="container-fluid eyebrow">
+                    <div class="eyebrow__left col-md-8 d-flex justify-content-start">
+                        <ul class="eyebrow__left--list">
+                            <li class="eyebrow__left--item">
+                                <a href="#" class="">
+                                    <img src="./images/icon_1.svg" alt="">
+                                    <span>MUSTANG</span>
+                                </a>
+                            </li>
+                            <li class="eyebrow__left--item">
+                                <a href="#" class="eyebrow__left--item-2">
+                                    <img src="./images/icon_2.svg" alt="">
+                                    <span>BRONCO</span>
+                                </a>
+                            </li>
+                            <li class="eyebrow__left--item">
+                                <a href="#" class="">
+                                    <span>CERTIFIED USED</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="eyebrow-right col-md-4 d-flex justify-content-end">
+                        <a href="" class="list-unstyled text-decoration-none mr-5">
+                            <i class="fa fa-map-marker-alt mr-1"></i>
+                            <span>Dealership Locations</span>
+                        </a>
+                    </div> 
+                </div>
+        </header>
     <!-- HEADER END -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-light navbar--header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-    <!-- FOOTER START -->
-    <footer></footer>
-    <!-- FOOTER END -->
+            <ul class="menu__left--list navbar-nav">
+                <li class="menu__left--item active nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">SUVS & CROSSOVERS</a>
+                </li>
+                <li class="menu__left--item nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">TRUCKS & VANS</a>
+                </li>
+                <li class="menu__left--item nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">ELECTRIFIED</a>
+                </li>
+                <li class="menu__left--item nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">CARS</a>
+                </li>
+                <li class="menu__left--item nav-item">
+                  <a class="nav-link" href="" data-toggle="modal" data-target="#myModal">ALL VEHICLES</a>
+                </li>
+               
+              </ul>
+        </div>
+      </nav>
+    <!-- MENU START-->
+    <nav>
+      <div class="container-fluid">
+        <div class="row menu bg-white">
+          <div class="col-md-1">
+            <div class="menu__logo">
+              <a href="">
+                <img src="./images/Logo_Ford.svg" alt="">
+              </a>
+              
+            </div>
+          </div>
+          
+          <div class="col-md-7 align-self-center pt-3 pl-5">
 
+            <div class="menu__left ">
+              <ul class="menu__left--list">
+                <li class="menu__left--item active">
+                  <a href="" data-toggle="modal" data-target="#myModal">SUVS & CROSSOVERS</a>
+                </li>
+                <li class="menu__left--item">
+                  <a href="" data-toggle="modal" data-target="#myModal">TRUCKS & VANS</a>
+                </li>
+                <li class="menu__left--item">
+                  <a href="" data-toggle="modal" data-target="#myModal">ELECTRIFIED</a>
+                </li>
+                <li class="menu__left--item">
+                  <a href="" data-toggle="modal" data-target="#myModal">CARS</a>
+                </li>
+                <li class="menu__left--item">
+                  <a href="" data-toggle="modal" data-target="#myModal">ALL VEHICLES</a>
+                </li>
+               
+              </ul>
+            </div>
+            
+          </div>
+          <div class="col-md-4 d-flex align-self-center pt-3 justify-content-end pr-5">
+            <div class="menu__right ">
+              <ul class="menu__right--list">
+                <li class="menu__right--item">
+                  
+                  <a href=""><i class="fa fa-user pr-2"></i>MY ACCOUNT</a>
+                </li>
+                <li class="menu__right--item">
+                  <a href="">FINANCE</a>
+                </li>
+                <li class="menu__right--item">
+                  <a href="">SUPPORT</a>
+                </li>
+                <li class="menu__right--item">
+                  <a href="">EN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+    <!-- MENU END-->
 
+    <!-- CAROUSEL START -->
+        <section id="my-carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./images/banner4.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>THE ALL-NEW 2022 FORD MAVERICK</h5>
+                        <span>It's here - the first ever standard full hybrid truck in America.</span>
+                    <a href="#">
+                    Meet Maverick
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    <!-- CAROUSEL END -->
+
+    <!-- VEHICLES START -->
+        <section class="something">
+            <h2>Something for Everyone</h2>
+            <h3>See our full lineup of vehicles and find the one that best fits you.</h3>
+            <button type="button" class="ford-btnBlue">All Vehicles</button>
+        </section>
+        <section class="generalImage">
+            <img src="./images/banner3.jpeg" alt="">
+        </section>
+    <!-- VEHICLES END -->
+
+    <!-- OFFER START -->
+        <section class="summer">
+        <div class="summer__content">
+            <div class="summer__text">
+                <h2 class="text-white">Let Us Sweeten the Deal</h2>
+                <span class="text-white">SEE ALL OFFERS <i class="fa fa-arrow-circle-right"></i></span>
+
+            </div>
+            <a href="#">
+                <div class="summer__banner"></div>
+            </a>
+        </div>
+        </section>
+        <div class="clear"></div>
+    <!-- OFFER END -->
+
+    <!-- GALLERY STAR -->
+        <section class="gallery">
+        <div class="gallery__content">
+            <div class="gallery__itemRow1">
+                <div class="gallery__itemRow1-1">
+                    <h2>What's Happening at Ford</h2>
+                    <h3>The latest technology, news and vehicles.
+                    </h3>
+                </div>
+                <div class="gallery__itemRow1-2 gallery__itemMini">
+                    <a href="#"><img src="./images/thumbnail_1.jpeg" alt="">
+                        <div class="gallerySpan">
+                            <span>Our Purpose</span>
+                            <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="gallery__itemRow2">
+                <div class="gallery__itemRow2-1 gallery__itemMini">
+                    <a href="#"><img src="./images/banner.jpeg" alt="">
+                        <div class="gallerySpan" id="gallerySpanRow2-1">
+                            <span>The All-Electric 2022 F-150 Lightning</span>
+                            <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__itemRow2-2 gallery__itemMini">
+                    <a href="#"><img src="./images/thumbnail_3.jpeg" alt="">
+                        <div class="gallerySpan">
+                            <span>Custom Order Your Next Ford</span>
+                            <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery__itemRow2-3 gallery__itemMini">
+                    <div class="gallery__itemRow2-3 gallery__itemMini">
+                        <div class="gallery__itemRow2-3 gallery__itemMini"></div>
+                        <a href="#"><img src="./images/thumbnail_4.jpeg" alt="">
+                            <div class="gallerySpan">
+                                <span>Introducing Ford Insure</span>
+                                <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery__itemRow2-4 gallery__itemMini">
+                    <div class="gallery__itemRow2-3 gallery__itemMini">
+                        <div class="gallery__itemRow2-3 gallery__itemMini"></div>
+                        <a href="#"><img src="./images/thumbnail_5.jpeg" alt="">
+                            <div class="gallerySpan">
+                                <span>The Future of Productivity</span>
+                                <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery__itemRow2-5 gallery__itemMini">
+                    <div class="gallery__itemRow2-3 gallery__itemMini">
+                        <div class="gallery__itemRow2-3 gallery__itemMini"></div>
+                        <a href="#"><img src="./images/thumbnail_6.jpeg" alt="">
+                            <div class="gallerySpan">
+                                <span>Meet the All-New 2022 Ford Maverick</span>
+                                <span class="galleryIcon"><i class="fa fa-chevron-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- GALLERY END-->
+   
+ <!-- BACK TO TOP START -->
+ <a href="#" class="cd-top text-replace js-cd-top backToTop">
+    <i class="fa fa-angle-up"></i>
+  </a>
+  <!-- BACK TO TOP END -->
+
+    <!-- Modal -->
+    <!-- Button trigger modal -->
+
+<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="tab-content">
+                  <div class="tab-pane active" id="tab1">
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280.webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2020 ECOSPORT
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $19,995<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(1).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2020 ESCAPE
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $24,885<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(2).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2021 BRONCO SPORT
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $26,660<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(3).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2021 BRONCO
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $28,500<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(4).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2019 FLEX
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $30,575<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(5).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2020 EDGE
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $31,100<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(6).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2020 EXPLOREr
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $32,765<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(7).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2021 MUSTANG MACH-E
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $43,895<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                      <a href="#" class="tab1__link">
+                          <div class="tab1__content">
+                              <div class="tab1__img">
+                                  <img src="./images/cq5dam.web.1280.1280%20(8).webp" alt="">
+                              </div>
+                              <div class="tab1__infor">
+                                  <h3 class="car__name">
+                                      2020 EXPEDITION
+                                  </h3>
+                                  <p class="car__price">
+                                      Starting at $52,810<span>1</span>
+                                  </p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>             
+                  
+              <div class="modal-footer">
+          <button type="button" class="btn btn-success">Explore All Vehicles</button>
+          <button type="button" class="btn btn-success">See Special Offes</button>
+          <button type="button" class="btn btn-success">Certified Used</button>
+          <button type="button" class="btn btn-success">Explore Fuel Choices</button>
+    
+          
+        </div>
+        </div>
+        
+      </div>
+      
+  </div>
+  
+ 
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
   </body>
 </html>
